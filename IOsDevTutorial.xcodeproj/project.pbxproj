@@ -39,6 +39,12 @@
 		484987E3262C95DB009B59EE /* Image02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987E1262C95DB009B59EE /* Image02.swift */; };
 		484987E7262C97BA009B59EE /* ImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987E6262C97BA009B59EE /* ImageEffects.swift */; };
 		484987E8262C97BA009B59EE /* ImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987E6262C97BA009B59EE /* ImageEffects.swift */; };
+		484987EC262C9EAB009B59EE /* ImageBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987EB262C9EAB009B59EE /* ImageBackground.swift */; };
+		484987ED262C9EAB009B59EE /* ImageBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987EB262C9EAB009B59EE /* ImageBackground.swift */; };
+		484987F1262CA37F009B59EE /* ImageRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F0262CA37F009B59EE /* ImageRotation.swift */; };
+		484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F0262CA37F009B59EE /* ImageRotation.swift */; };
+		484987F6262CA787009B59EE /* WebImagef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F5262CA787009B59EE /* WebImagef.swift */; };
+		484987F7262CA787009B59EE /* WebImagef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F5262CA787009B59EE /* WebImagef.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +69,9 @@
 		484987DC262C9483009B59EE /* ImageRelated01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRelated01.swift; sourceTree = "<group>"; };
 		484987E1262C95DB009B59EE /* Image02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image02.swift; sourceTree = "<group>"; };
 		484987E6262C97BA009B59EE /* ImageEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffects.swift; sourceTree = "<group>"; };
+		484987EB262C9EAB009B59EE /* ImageBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBackground.swift; sourceTree = "<group>"; };
+		484987F0262CA37F009B59EE /* ImageRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRotation.swift; sourceTree = "<group>"; };
+		484987F5262CA787009B59EE /* WebImagef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImagef.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,9 @@
 				484987DC262C9483009B59EE /* ImageRelated01.swift */,
 				484987E1262C95DB009B59EE /* Image02.swift */,
 				484987E6262C97BA009B59EE /* ImageEffects.swift */,
+				484987EB262C9EAB009B59EE /* ImageBackground.swift */,
+				484987F0262CA37F009B59EE /* ImageRotation.swift */,
+				484987F5262CA787009B59EE /* WebImagef.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -242,6 +254,7 @@
 				484987E7262C97BA009B59EE /* ImageEffects.swift in Sources */,
 				48297440262A8E3B00D923DE /* ContentView.swift in Sources */,
 				48297458262A8EC700D923DE /* ShowStoreView.swift in Sources */,
+				484987EC262C9EAB009B59EE /* ImageBackground.swift in Sources */,
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				48297454262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CC262C569F009B59EE /* TextFieldView.swift in Sources */,
@@ -251,6 +264,8 @@
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D3262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D8262C9225009B59EE /* ModalWindow.swift in Sources */,
+				484987F6262CA787009B59EE /* WebImagef.swift in Sources */,
+				484987F1262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DD262C9483009B59EE /* ImageRelated01.swift in Sources */,
 				484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */,
@@ -264,6 +279,7 @@
 				484987E8262C97BA009B59EE /* ImageEffects.swift in Sources */,
 				48297441262A8E3B00D923DE /* ContentView.swift in Sources */,
 				48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */,
+				484987ED262C9EAB009B59EE /* ImageBackground.swift in Sources */,
 				48297453262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				48297455262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CD262C569F009B59EE /* TextFieldView.swift in Sources */,
@@ -273,6 +289,8 @@
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D4262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D9262C9225009B59EE /* ModalWindow.swift in Sources */,
+				484987F7262CA787009B59EE /* WebImagef.swift in Sources */,
+				484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743F262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DE262C9483009B59EE /* ImageRelated01.swift in Sources */,
 				484987C8262C4640009B59EE /* LabelOfImageText.swift in Sources */,

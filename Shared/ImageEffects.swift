@@ -27,7 +27,6 @@ struct ImageEffects: View {
                 Image("lotus002")
                     .resizable()
                     .blur(radius: CGFloat(2), opaque: true)
-                
             }.padding()
             HStack {
                 Image("lotus002")
