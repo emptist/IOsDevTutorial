@@ -23,6 +23,8 @@
 		48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297451262A8EC700D923DE /* ShowStoreView.swift */; };
 		48297461262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
 		48297462262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
+		484987C2262C44EA009B59EE /* ComposedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C1262C44EA009B59EE /* ComposedText.swift */; };
+		484987C3262C44EA009B59EE /* ComposedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C1262C44EA009B59EE /* ComposedText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,7 @@
 		48297450262A8EC700D923DE /* TextViewL2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewL2.swift; sourceTree = "<group>"; };
 		48297451262A8EC700D923DE /* ShowStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStoreView.swift; sourceTree = "<group>"; };
 		48297460262A926F00D923DE /* DateFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatText.swift; sourceTree = "<group>"; };
+		484987C1262C44EA009B59EE /* ComposedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 				4829744E262A8EC700D923DE /* TextViewParagraph.swift */,
 				4829744F262A8EC700D923DE /* FullScreen.swift */,
 				48297460262A926F00D923DE /* DateFormatText.swift */,
+				484987C1262C44EA009B59EE /* ComposedText.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -211,6 +215,7 @@
 				48297458262A8EC700D923DE /* ShowStoreView.swift in Sources */,
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				48297454262A8EC700D923DE /* FullScreen.swift in Sources */,
+				484987C2262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297461262A926F00D923DE /* DateFormatText.swift in Sources */,
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
@@ -225,6 +230,7 @@
 				48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */,
 				48297453262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				48297455262A8EC700D923DE /* FullScreen.swift in Sources */,
+				484987C3262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297462262A926F00D923DE /* DateFormatText.swift in Sources */,
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				4829743F262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
