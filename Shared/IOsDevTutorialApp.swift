@@ -11,8 +11,8 @@ import SwiftUI
 struct IOsDevTutorialApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-            TextFieldView(username: "", nickname: "")
+            //ContentView()
+            TextFieldView(username: "", nickname: "", password: "")
         }
     }
 }

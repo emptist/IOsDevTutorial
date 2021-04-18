@@ -29,6 +29,10 @@
 		484987C8262C4640009B59EE /* LabelOfImageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C6262C4640009B59EE /* LabelOfImageText.swift */; };
 		484987CC262C569F009B59EE /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987CB262C569F009B59EE /* TextFieldView.swift */; };
 		484987CD262C569F009B59EE /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987CB262C569F009B59EE /* TextFieldView.swift */; };
+		484987D3262C6FD7009B59EE /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987D2262C6FD7009B59EE /* TextEditorView.swift */; };
+		484987D4262C6FD7009B59EE /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987D2262C6FD7009B59EE /* TextEditorView.swift */; };
+		484987D8262C9225009B59EE /* ModalWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987D7262C9225009B59EE /* ModalWindow.swift */; };
+		484987D9262C9225009B59EE /* ModalWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987D7262C9225009B59EE /* ModalWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,8 @@
 		484987C1262C44EA009B59EE /* ComposedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedText.swift; sourceTree = "<group>"; };
 		484987C6262C4640009B59EE /* LabelOfImageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelOfImageText.swift; sourceTree = "<group>"; };
 		484987CB262C569F009B59EE /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		484987D2262C6FD7009B59EE /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		484987D7262C9225009B59EE /* ModalWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,8 @@
 				484987C1262C44EA009B59EE /* ComposedText.swift */,
 				484987C6262C4640009B59EE /* LabelOfImageText.swift */,
 				484987CB262C569F009B59EE /* TextFieldView.swift */,
+				484987D2262C6FD7009B59EE /* TextEditorView.swift */,
+				484987D7262C9225009B59EE /* ModalWindow.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -227,6 +235,8 @@
 				484987C2262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297461262A926F00D923DE /* DateFormatText.swift in Sources */,
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
+				484987D3262C6FD7009B59EE /* TextEditorView.swift in Sources */,
+				484987D8262C9225009B59EE /* ModalWindow.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */,
 			);
@@ -244,6 +254,8 @@
 				484987C3262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297462262A926F00D923DE /* DateFormatText.swift in Sources */,
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
+				484987D4262C6FD7009B59EE /* TextEditorView.swift in Sources */,
+				484987D9262C9225009B59EE /* ModalWindow.swift in Sources */,
 				4829743F262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987C8262C4640009B59EE /* LabelOfImageText.swift in Sources */,
 			);

@@ -10,6 +10,7 @@ import SwiftUI
 struct TextFieldView: View {
     @State var username: String
     @State var nickname: String
+    @State var password: String
     
     var body: some View {
         VStack {
@@ -24,12 +25,16 @@ struct TextFieldView: View {
             .textFieldStyle(RoundedBorderTextFieldStyle())
             TextField("nickname: \(nickname)", text: $nickname)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
+            SecureField("password: \(password)", text: $password) {
+                print("the password is \(password)")
+            }
+                .textFieldStyle(RoundedBorderTextFieldStyle())
         }
     }
 }
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        TextFieldView(username: "", nickname: "")
+        TextFieldView(username: "", nickname: "", password: "")
     }
 }
