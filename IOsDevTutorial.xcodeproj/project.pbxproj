@@ -27,6 +27,10 @@
 		48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297451262A8EC700D923DE /* ShowStoreView.swift */; };
 		48297461262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
 		48297462262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
+		483844982638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
+		483844992638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
+		4838449B2638C5220043BA65 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449A2638C5220043BA65 /* ColorPicker.swift */; };
+		4838449C2638C5220043BA65 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449A2638C5220043BA65 /* ColorPicker.swift */; };
 		484987C2262C44EA009B59EE /* ComposedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C1262C44EA009B59EE /* ComposedText.swift */; };
 		484987C3262C44EA009B59EE /* ComposedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C1262C44EA009B59EE /* ComposedText.swift */; };
 		484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C6262C4640009B59EE /* LabelOfImageText.swift */; };
@@ -67,6 +71,8 @@
 		48297450262A8EC700D923DE /* TextViewL2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewL2.swift; sourceTree = "<group>"; };
 		48297451262A8EC700D923DE /* ShowStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStoreView.swift; sourceTree = "<group>"; };
 		48297460262A926F00D923DE /* DateFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatText.swift; sourceTree = "<group>"; };
+		483844972638BE820043BA65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		4838449A2638C5220043BA65 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 		484987C1262C44EA009B59EE /* ComposedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedText.swift; sourceTree = "<group>"; };
 		484987C6262C4640009B59EE /* LabelOfImageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelOfImageText.swift; sourceTree = "<group>"; };
 		484987CB262C569F009B59EE /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -131,6 +137,8 @@
 				484987F5262CA787009B59EE /* WebImagef.swift */,
 				480E10C42634DF5200665FD4 /* UserFriendlySelction.swift */,
 				480E10C92634E4B900665FD4 /* DatePickerView.swift */,
+				483844972638BE820043BA65 /* DateFormat.swift */,
+				4838449A2638C5220043BA65 /* ColorPicker.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -206,7 +214,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					48297431262A8E3B00D923DE = {
 						CreatedOnToolsVersion = 12.4;
@@ -274,11 +282,13 @@
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D3262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D8262C9225009B59EE /* ModalWindow.swift in Sources */,
+				4838449B2638C5220043BA65 /* ColorPicker.swift in Sources */,
 				484987F6262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F1262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DD262C9483009B59EE /* ImageRelated01.swift in Sources */,
 				484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */,
+				483844982638BE820043BA65 /* DateFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,11 +311,13 @@
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D4262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D9262C9225009B59EE /* ModalWindow.swift in Sources */,
+				4838449C2638C5220043BA65 /* ColorPicker.swift in Sources */,
 				484987F7262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743F262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DE262C9483009B59EE /* ImageRelated01.swift in Sources */,
 				484987C8262C4640009B59EE /* LabelOfImageText.swift in Sources */,
+				483844992638BE820043BA65 /* DateFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZC99T738S6;
@@ -498,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = ZC99T738S6;
