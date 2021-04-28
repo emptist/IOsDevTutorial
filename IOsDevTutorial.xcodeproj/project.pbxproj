@@ -33,6 +33,8 @@
 		4838449C2638C5220043BA65 /* ColorPicking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449A2638C5220043BA65 /* ColorPicking.swift */; };
 		4838449E2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */; };
 		4838449F2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */; };
+		483844A12639C18D0043BA65 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844A02639C18D0043BA65 /* SliderView.swift */; };
+		483844A22639C18D0043BA65 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844A02639C18D0043BA65 /* SliderView.swift */; };
 		484987C2262C44EA009B59EE /* ComposedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C1262C44EA009B59EE /* ComposedText.swift */; };
 		484987C3262C44EA009B59EE /* ComposedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C1262C44EA009B59EE /* ComposedText.swift */; };
 		484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987C6262C4640009B59EE /* LabelOfImageText.swift */; };
@@ -76,6 +78,7 @@
 		483844972638BE820043BA65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		4838449A2638C5220043BA65 /* ColorPicking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicking.swift; sourceTree = "<group>"; };
 		4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntoSegmentPicker.swift; sourceTree = "<group>"; };
+		483844A02639C18D0043BA65 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		484987C1262C44EA009B59EE /* ComposedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedText.swift; sourceTree = "<group>"; };
 		484987C6262C4640009B59EE /* LabelOfImageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelOfImageText.swift; sourceTree = "<group>"; };
 		484987CB262C569F009B59EE /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
@@ -143,6 +146,7 @@
 				483844972638BE820043BA65 /* DateFormat.swift */,
 				4838449A2638C5220043BA65 /* ColorPicking.swift */,
 				4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */,
+				483844A02639C18D0043BA65 /* SliderView.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -280,6 +284,7 @@
 				480E10CA2634E4B900665FD4 /* DatePickerView.swift in Sources */,
 				48297454262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CC262C569F009B59EE /* TextFieldView.swift in Sources */,
+				483844A12639C18D0043BA65 /* SliderView.swift in Sources */,
 				484987E2262C95DB009B59EE /* Image02.swift in Sources */,
 				484987C2262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297461262A926F00D923DE /* DateFormatText.swift in Sources */,
@@ -310,6 +315,7 @@
 				480E10CB2634E4B900665FD4 /* DatePickerView.swift in Sources */,
 				48297455262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CD262C569F009B59EE /* TextFieldView.swift in Sources */,
+				483844A22639C18D0043BA65 /* SliderView.swift in Sources */,
 				484987E3262C95DB009B59EE /* Image02.swift in Sources */,
 				484987C3262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297462262A926F00D923DE /* DateFormatText.swift in Sources */,

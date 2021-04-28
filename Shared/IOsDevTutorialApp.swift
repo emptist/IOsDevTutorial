@@ -12,7 +12,8 @@ struct IOsDevTutorialApp: App {
     var body: some Scene {
         WindowGroup {
             //ContentView()
-            TextFieldView(username: "", nickname: "", password: "")
+            //TextFieldView(username: "", nickname: "", password: "")
+            SliderView()
         }
     }
 }

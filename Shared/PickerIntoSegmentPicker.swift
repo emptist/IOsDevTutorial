@@ -15,7 +15,8 @@ struct PickerIntoSegmentPicker: View {
         VStack {
             Picker(selection: $selectedAnimalIndex, label: Text("A Picker ")) {
                 ForEach(0..<animals.count) {idx in
-                    Text(animals[idx]).tag(idx)
+                    Text(animals[idx])
+                        .tag(idx)
                 }
             }
             .pickerStyle(SegmentedPickerStyle())
