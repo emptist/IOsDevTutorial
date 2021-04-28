@@ -27,6 +27,10 @@
 		48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297451262A8EC700D923DE /* ShowStoreView.swift */; };
 		48297461262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
 		48297462262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
+		482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
+		482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
+		482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
+		482ADCBD263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
 		483844982638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
 		483844992638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
 		4838449B2638C5220043BA65 /* ColorPicking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449A2638C5220043BA65 /* ColorPicking.swift */; };
@@ -75,6 +79,8 @@
 		48297450262A8EC700D923DE /* TextViewL2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewL2.swift; sourceTree = "<group>"; };
 		48297451262A8EC700D923DE /* ShowStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStoreView.swift; sourceTree = "<group>"; };
 		48297460262A926F00D923DE /* DateFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatText.swift; sourceTree = "<group>"; };
+		482ADCB8263A1A67008FB940 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		482ADCBB263A1CA9008FB940 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		483844972638BE820043BA65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		4838449A2638C5220043BA65 /* ColorPicking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicking.swift; sourceTree = "<group>"; };
 		4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntoSegmentPicker.swift; sourceTree = "<group>"; };
@@ -147,6 +153,8 @@
 				4838449A2638C5220043BA65 /* ColorPicking.swift */,
 				4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */,
 				483844A02639C18D0043BA65 /* SliderView.swift */,
+				482ADCB8263A1A67008FB940 /* StepperView.swift */,
+				482ADCBB263A1CA9008FB940 /* ToggleView.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -286,6 +294,8 @@
 				484987CC262C569F009B59EE /* TextFieldView.swift in Sources */,
 				483844A12639C18D0043BA65 /* SliderView.swift in Sources */,
 				484987E2262C95DB009B59EE /* Image02.swift in Sources */,
+				482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */,
+				482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */,
 				484987C2262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297461262A926F00D923DE /* DateFormatText.swift in Sources */,
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
@@ -317,6 +327,8 @@
 				484987CD262C569F009B59EE /* TextFieldView.swift in Sources */,
 				483844A22639C18D0043BA65 /* SliderView.swift in Sources */,
 				484987E3262C95DB009B59EE /* Image02.swift in Sources */,
+				482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */,
+				482ADCBD263A1CA9008FB940 /* ToggleView.swift in Sources */,
 				484987C3262C44EA009B59EE /* ComposedText.swift in Sources */,
 				48297462262A926F00D923DE /* DateFormatText.swift in Sources */,
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
