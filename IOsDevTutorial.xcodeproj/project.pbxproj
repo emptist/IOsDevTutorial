@@ -31,6 +31,14 @@
 		482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
 		482ADCBD263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
+		482ADCC2263A23FD008FB940 /* MultiTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCC1263A23FD008FB940 /* MultiTabs.swift */; };
+		482ADCC3263A23FD008FB940 /* MultiTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCC1263A23FD008FB940 /* MultiTabs.swift */; };
+		482D431B263B89F10098DD5F /* MultiPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D431A263B89F10098DD5F /* MultiPages.swift */; };
+		482D431C263B89F10098DD5F /* MultiPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D431A263B89F10098DD5F /* MultiPages.swift */; };
+		482D431E263C03EC0098DD5F /* WebKitContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D431D263C03EC0098DD5F /* WebKitContents.swift */; };
+		482D431F263C03EC0098DD5F /* WebKitContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D431D263C03EC0098DD5F /* WebKitContents.swift */; };
+		482D4321263CA6DB0098DD5F /* AMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4320263CA6DB0098DD5F /* AMap.swift */; };
+		482D4322263CA6DB0098DD5F /* AMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4320263CA6DB0098DD5F /* AMap.swift */; };
 		483844982638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
 		483844992638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
 		4838449B2638C5220043BA65 /* ColorPicking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449A2638C5220043BA65 /* ColorPicking.swift */; };
@@ -81,6 +89,10 @@
 		48297460262A926F00D923DE /* DateFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatText.swift; sourceTree = "<group>"; };
 		482ADCB8263A1A67008FB940 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		482ADCBB263A1CA9008FB940 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		482ADCC1263A23FD008FB940 /* MultiTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabs.swift; sourceTree = "<group>"; };
+		482D431A263B89F10098DD5F /* MultiPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPages.swift; sourceTree = "<group>"; };
+		482D431D263C03EC0098DD5F /* WebKitContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitContents.swift; sourceTree = "<group>"; };
+		482D4320263CA6DB0098DD5F /* AMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMap.swift; sourceTree = "<group>"; };
 		483844972638BE820043BA65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		4838449A2638C5220043BA65 /* ColorPicking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicking.swift; sourceTree = "<group>"; };
 		4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntoSegmentPicker.swift; sourceTree = "<group>"; };
@@ -155,6 +167,10 @@
 				483844A02639C18D0043BA65 /* SliderView.swift */,
 				482ADCB8263A1A67008FB940 /* StepperView.swift */,
 				482ADCBB263A1CA9008FB940 /* ToggleView.swift */,
+				482ADCC1263A23FD008FB940 /* MultiTabs.swift */,
+				482D431A263B89F10098DD5F /* MultiPages.swift */,
+				482D431D263C03EC0098DD5F /* WebKitContents.swift */,
+				482D4320263CA6DB0098DD5F /* AMap.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -285,10 +301,12 @@
 			files = (
 				480E10C52634DF5200665FD4 /* UserFriendlySelction.swift in Sources */,
 				484987E7262C97BA009B59EE /* ImageEffects.swift in Sources */,
+				482D431B263B89F10098DD5F /* MultiPages.swift in Sources */,
 				48297440262A8E3B00D923DE /* ContentView.swift in Sources */,
 				48297458262A8EC700D923DE /* ShowStoreView.swift in Sources */,
 				484987EC262C9EAB009B59EE /* ImageBackground.swift in Sources */,
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
+				482D431E263C03EC0098DD5F /* WebKitContents.swift in Sources */,
 				480E10CA2634E4B900665FD4 /* DatePickerView.swift in Sources */,
 				48297454262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CC262C569F009B59EE /* TextFieldView.swift in Sources */,
@@ -297,7 +315,9 @@
 				482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */,
 				482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */,
 				484987C2262C44EA009B59EE /* ComposedText.swift in Sources */,
+				482D4321263CA6DB0098DD5F /* AMap.swift in Sources */,
 				48297461262A926F00D923DE /* DateFormatText.swift in Sources */,
+				482ADCC2263A23FD008FB940 /* MultiTabs.swift in Sources */,
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D3262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D8262C9225009B59EE /* ModalWindow.swift in Sources */,
@@ -318,10 +338,12 @@
 			files = (
 				480E10C62634DF5200665FD4 /* UserFriendlySelction.swift in Sources */,
 				484987E8262C97BA009B59EE /* ImageEffects.swift in Sources */,
+				482D431C263B89F10098DD5F /* MultiPages.swift in Sources */,
 				48297441262A8E3B00D923DE /* ContentView.swift in Sources */,
 				48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */,
 				484987ED262C9EAB009B59EE /* ImageBackground.swift in Sources */,
 				48297453262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
+				482D431F263C03EC0098DD5F /* WebKitContents.swift in Sources */,
 				480E10CB2634E4B900665FD4 /* DatePickerView.swift in Sources */,
 				48297455262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CD262C569F009B59EE /* TextFieldView.swift in Sources */,
@@ -330,7 +352,9 @@
 				482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */,
 				482ADCBD263A1CA9008FB940 /* ToggleView.swift in Sources */,
 				484987C3262C44EA009B59EE /* ComposedText.swift in Sources */,
+				482D4322263CA6DB0098DD5F /* AMap.swift in Sources */,
 				48297462262A926F00D923DE /* DateFormatText.swift in Sources */,
+				482ADCC3263A23FD008FB940 /* MultiTabs.swift in Sources */,
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D4262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D9262C9225009B59EE /* ModalWindow.swift in Sources */,
