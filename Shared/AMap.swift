@@ -18,9 +18,7 @@ struct AMap: View {
     @State var mapPins = Array<IdentifiableMapPin>()
     
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems:mapPins) { mp in
-            mp.mapPin
-        }
+        Map(coordinateRegion: $region, annotationItems: mapPins, annotationContent: {$0.mapPin})
         .onAppear(perform: {
             let newMapPin = MapPin(coordinate: CLLocationCoordinate2D(latitude: 39.9, longitude: 116.4))
             mapPins.append(IdentifiableMapPin(id: mapPins.count, mapPin: newMapPin))

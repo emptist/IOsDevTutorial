@@ -39,6 +39,10 @@
 		482D431F263C03EC0098DD5F /* WebKitContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D431D263C03EC0098DD5F /* WebKitContents.swift */; };
 		482D4321263CA6DB0098DD5F /* AMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4320263CA6DB0098DD5F /* AMap.swift */; };
 		482D4322263CA6DB0098DD5F /* AMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4320263CA6DB0098DD5F /* AMap.swift */; };
+		482D4324263CACE10098DD5F /* UsingMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4323263CACE10098DD5F /* UsingMapView.swift */; };
+		482D4325263CACE10098DD5F /* UsingMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4323263CACE10098DD5F /* UsingMapView.swift */; };
+		482D4327263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */; };
+		482D4328263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */; };
 		483844982638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
 		483844992638BE820043BA65 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483844972638BE820043BA65 /* DateFormat.swift */; };
 		4838449B2638C5220043BA65 /* ColorPicking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838449A2638C5220043BA65 /* ColorPicking.swift */; };
@@ -69,6 +73,10 @@
 		484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F0262CA37F009B59EE /* ImageRotation.swift */; };
 		484987F6262CA787009B59EE /* WebImagef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F5262CA787009B59EE /* WebImagef.swift */; };
 		484987F7262CA787009B59EE /* WebImagef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F5262CA787009B59EE /* WebImagef.swift */; };
+		48B56884263ECE8300A88073 /* ACircularActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56883263ECE8300A88073 /* ACircularActivityView.swift */; };
+		48B56885263ECE8300A88073 /* ACircularActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56883263ECE8300A88073 /* ACircularActivityView.swift */; };
+		48B56887263ED2DC00A88073 /* AUIKitProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56886263ED2DC00A88073 /* AUIKitProgress.swift */; };
+		48B56888263ED2DC00A88073 /* AUIKitProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56886263ED2DC00A88073 /* AUIKitProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +101,8 @@
 		482D431A263B89F10098DD5F /* MultiPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPages.swift; sourceTree = "<group>"; };
 		482D431D263C03EC0098DD5F /* WebKitContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitContents.swift; sourceTree = "<group>"; };
 		482D4320263CA6DB0098DD5F /* AMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMap.swift; sourceTree = "<group>"; };
+		482D4323263CACE10098DD5F /* UsingMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingMapView.swift; sourceTree = "<group>"; };
+		482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularActivityUIKit.swift; sourceTree = "<group>"; };
 		483844972638BE820043BA65 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
 		4838449A2638C5220043BA65 /* ColorPicking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicking.swift; sourceTree = "<group>"; };
 		4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerIntoSegmentPicker.swift; sourceTree = "<group>"; };
@@ -108,6 +118,8 @@
 		484987EB262C9EAB009B59EE /* ImageBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBackground.swift; sourceTree = "<group>"; };
 		484987F0262CA37F009B59EE /* ImageRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRotation.swift; sourceTree = "<group>"; };
 		484987F5262CA787009B59EE /* WebImagef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImagef.swift; sourceTree = "<group>"; };
+		48B56883263ECE8300A88073 /* ACircularActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACircularActivityView.swift; sourceTree = "<group>"; };
+		48B56886263ED2DC00A88073 /* AUIKitProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUIKitProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +183,10 @@
 				482D431A263B89F10098DD5F /* MultiPages.swift */,
 				482D431D263C03EC0098DD5F /* WebKitContents.swift */,
 				482D4320263CA6DB0098DD5F /* AMap.swift */,
+				482D4323263CACE10098DD5F /* UsingMapView.swift */,
+				482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */,
+				48B56883263ECE8300A88073 /* ACircularActivityView.swift */,
+				48B56886263ED2DC00A88073 /* AUIKitProgress.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -318,17 +334,21 @@
 				482D4321263CA6DB0098DD5F /* AMap.swift in Sources */,
 				48297461262A926F00D923DE /* DateFormatText.swift in Sources */,
 				482ADCC2263A23FD008FB940 /* MultiTabs.swift in Sources */,
+				482D4324263CACE10098DD5F /* UsingMapView.swift in Sources */,
 				48297456262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D3262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D8262C9225009B59EE /* ModalWindow.swift in Sources */,
+				48B56884263ECE8300A88073 /* ACircularActivityView.swift in Sources */,
 				4838449B2638C5220043BA65 /* ColorPicking.swift in Sources */,
 				4838449E2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */,
 				484987F6262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F1262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DD262C9483009B59EE /* ImageRelated01.swift in Sources */,
+				482D4327263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */,
 				484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */,
 				483844982638BE820043BA65 /* DateFormat.swift in Sources */,
+				48B56887263ED2DC00A88073 /* AUIKitProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,17 +375,21 @@
 				482D4322263CA6DB0098DD5F /* AMap.swift in Sources */,
 				48297462262A926F00D923DE /* DateFormatText.swift in Sources */,
 				482ADCC3263A23FD008FB940 /* MultiTabs.swift in Sources */,
+				482D4325263CACE10098DD5F /* UsingMapView.swift in Sources */,
 				48297457262A8EC700D923DE /* TextViewL2.swift in Sources */,
 				484987D4262C6FD7009B59EE /* TextEditorView.swift in Sources */,
 				484987D9262C9225009B59EE /* ModalWindow.swift in Sources */,
+				48B56885263ECE8300A88073 /* ACircularActivityView.swift in Sources */,
 				4838449C2638C5220043BA65 /* ColorPicking.swift in Sources */,
 				4838449F2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */,
 				484987F7262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743F262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DE262C9483009B59EE /* ImageRelated01.swift in Sources */,
+				482D4328263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */,
 				484987C8262C4640009B59EE /* LabelOfImageText.swift in Sources */,
 				483844992638BE820043BA65 /* DateFormat.swift in Sources */,
+				48B56888263ED2DC00A88073 /* AUIKitProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
