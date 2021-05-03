@@ -12,7 +12,7 @@ struct CircularActivityUIKit: View {
     @State var isActive = true
     
     var body: some View {
-        loadingView(isActive: $isActive)
+        LoadingView(isActive: $isActive)
             .onAppear {
                 Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { timer in
                     isActive.toggle()
@@ -22,7 +22,7 @@ struct CircularActivityUIKit: View {
     }
 }
 
-struct loadingView: View {
+struct LoadingView: View {
     @Binding var isActive: Bool
     
     var body: some View {

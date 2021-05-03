@@ -73,6 +73,20 @@
 		484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F0262CA37F009B59EE /* ImageRotation.swift */; };
 		484987F6262CA787009B59EE /* WebImagef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F5262CA787009B59EE /* WebImagef.swift */; };
 		484987F7262CA787009B59EE /* WebImagef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987F5262CA787009B59EE /* WebImagef.swift */; };
+		4892CCA4263FA15100D647A3 /* ProgressViewHorizontalBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCA3263FA15100D647A3 /* ProgressViewHorizontalBar.swift */; };
+		4892CCA5263FA15100D647A3 /* ProgressViewHorizontalBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCA3263FA15100D647A3 /* ProgressViewHorizontalBar.swift */; };
+		4892CCC92640003B00D647A3 /* AMirrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCC82640003B00D647A3 /* AMirrorView.swift */; };
+		4892CCCA2640003B00D647A3 /* AMirrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCC82640003B00D647A3 /* AMirrorView.swift */; };
+		4892CCCC2640057F00D647A3 /* ViewBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCCB2640057F00D647A3 /* ViewBackgrounds.swift */; };
+		4892CCCD2640057F00D647A3 /* ViewBackgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCCB2640057F00D647A3 /* ViewBackgrounds.swift */; };
+		4892CCCF26401AF100D647A3 /* UsingAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCCE26401AF100D647A3 /* UsingAnyView.swift */; };
+		4892CCD026401AF100D647A3 /* UsingAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCCE26401AF100D647A3 /* UsingAnyView.swift */; };
+		4892CCD526401E7000D647A3 /* CreatingAViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */; };
+		4892CCD626401E7000D647A3 /* CreatingAViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */; };
+		4892CCD82640273A00D647A3 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCD72640273A00D647A3 /* Circles.swift */; };
+		4892CCD92640273A00D647A3 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCD72640273A00D647A3 /* Circles.swift */; };
+		4892CCDB2640377300D647A3 /* Capsules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCDA2640377300D647A3 /* Capsules.swift */; };
+		4892CCDC2640377300D647A3 /* Capsules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCDA2640377300D647A3 /* Capsules.swift */; };
 		48B56884263ECE8300A88073 /* ACircularActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56883263ECE8300A88073 /* ACircularActivityView.swift */; };
 		48B56885263ECE8300A88073 /* ACircularActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56883263ECE8300A88073 /* ACircularActivityView.swift */; };
 		48B56887263ED2DC00A88073 /* AUIKitProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56886263ED2DC00A88073 /* AUIKitProgress.swift */; };
@@ -118,6 +132,13 @@
 		484987EB262C9EAB009B59EE /* ImageBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBackground.swift; sourceTree = "<group>"; };
 		484987F0262CA37F009B59EE /* ImageRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRotation.swift; sourceTree = "<group>"; };
 		484987F5262CA787009B59EE /* WebImagef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImagef.swift; sourceTree = "<group>"; };
+		4892CCA3263FA15100D647A3 /* ProgressViewHorizontalBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewHorizontalBar.swift; sourceTree = "<group>"; };
+		4892CCC82640003B00D647A3 /* AMirrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMirrorView.swift; sourceTree = "<group>"; };
+		4892CCCB2640057F00D647A3 /* ViewBackgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBackgrounds.swift; sourceTree = "<group>"; };
+		4892CCCE26401AF100D647A3 /* UsingAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingAnyView.swift; sourceTree = "<group>"; };
+		4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAViewModifier.swift; sourceTree = "<group>"; };
+		4892CCD72640273A00D647A3 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		4892CCDA2640377300D647A3 /* Capsules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capsules.swift; sourceTree = "<group>"; };
 		48B56883263ECE8300A88073 /* ACircularActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACircularActivityView.swift; sourceTree = "<group>"; };
 		48B56886263ED2DC00A88073 /* AUIKitProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUIKitProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +208,13 @@
 				482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */,
 				48B56883263ECE8300A88073 /* ACircularActivityView.swift */,
 				48B56886263ED2DC00A88073 /* AUIKitProgress.swift */,
+				4892CCA3263FA15100D647A3 /* ProgressViewHorizontalBar.swift */,
+				4892CCC82640003B00D647A3 /* AMirrorView.swift */,
+				4892CCCB2640057F00D647A3 /* ViewBackgrounds.swift */,
+				4892CCCE26401AF100D647A3 /* UsingAnyView.swift */,
+				4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */,
+				4892CCD72640273A00D647A3 /* Circles.swift */,
+				4892CCDA2640377300D647A3 /* Capsules.swift */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -324,6 +352,9 @@
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				482D431E263C03EC0098DD5F /* WebKitContents.swift in Sources */,
 				480E10CA2634E4B900665FD4 /* DatePickerView.swift in Sources */,
+				4892CCA4263FA15100D647A3 /* ProgressViewHorizontalBar.swift in Sources */,
+				4892CCCF26401AF100D647A3 /* UsingAnyView.swift in Sources */,
+				4892CCCC2640057F00D647A3 /* ViewBackgrounds.swift in Sources */,
 				48297454262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CC262C569F009B59EE /* TextFieldView.swift in Sources */,
 				483844A12639C18D0043BA65 /* SliderView.swift in Sources */,
@@ -341,13 +372,17 @@
 				48B56884263ECE8300A88073 /* ACircularActivityView.swift in Sources */,
 				4838449B2638C5220043BA65 /* ColorPicking.swift in Sources */,
 				4838449E2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */,
+				4892CCD82640273A00D647A3 /* Circles.swift in Sources */,
+				4892CCD526401E7000D647A3 /* CreatingAViewModifier.swift in Sources */,
 				484987F6262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F1262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DD262C9483009B59EE /* ImageRelated01.swift in Sources */,
+				4892CCC92640003B00D647A3 /* AMirrorView.swift in Sources */,
 				482D4327263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */,
 				484987C7262C4640009B59EE /* LabelOfImageText.swift in Sources */,
 				483844982638BE820043BA65 /* DateFormat.swift in Sources */,
+				4892CCDB2640377300D647A3 /* Capsules.swift in Sources */,
 				48B56887263ED2DC00A88073 /* AUIKitProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +400,9 @@
 				48297453262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				482D431F263C03EC0098DD5F /* WebKitContents.swift in Sources */,
 				480E10CB2634E4B900665FD4 /* DatePickerView.swift in Sources */,
+				4892CCA5263FA15100D647A3 /* ProgressViewHorizontalBar.swift in Sources */,
+				4892CCD026401AF100D647A3 /* UsingAnyView.swift in Sources */,
+				4892CCCD2640057F00D647A3 /* ViewBackgrounds.swift in Sources */,
 				48297455262A8EC700D923DE /* FullScreen.swift in Sources */,
 				484987CD262C569F009B59EE /* TextFieldView.swift in Sources */,
 				483844A22639C18D0043BA65 /* SliderView.swift in Sources */,
@@ -382,13 +420,17 @@
 				48B56885263ECE8300A88073 /* ACircularActivityView.swift in Sources */,
 				4838449C2638C5220043BA65 /* ColorPicking.swift in Sources */,
 				4838449F2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */,
+				4892CCD92640273A00D647A3 /* Circles.swift in Sources */,
+				4892CCD626401E7000D647A3 /* CreatingAViewModifier.swift in Sources */,
 				484987F7262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F2262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743F262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
 				484987DE262C9483009B59EE /* ImageRelated01.swift in Sources */,
+				4892CCCA2640003B00D647A3 /* AMirrorView.swift in Sources */,
 				482D4328263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */,
 				484987C8262C4640009B59EE /* LabelOfImageText.swift in Sources */,
 				483844992638BE820043BA65 /* DateFormat.swift in Sources */,
+				4892CCDC2640377300D647A3 /* Capsules.swift in Sources */,
 				48B56888263ED2DC00A88073 /* AUIKitProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

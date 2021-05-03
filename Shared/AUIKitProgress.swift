@@ -11,11 +11,14 @@ import Combine
 
 // view model
 class GlobalData: ObservableObject {
-    @Published var isActive: Bool = false
+    @Published var isActive = true
     var cancellableSubsriber: AnyCancellable?
+    
     init() {
-        cancellableSubsriber = isActive
-            .delay(for: 3, Scheduler: RunLoop.main)
+        cancellableSubsriber = $isActive
+            .delay(for: 3, scheduler: RunLoop.main)
+            .map { _ in false }
+            .assign(to: \.isActive, on: self)
     }
     
 }
@@ -23,13 +26,17 @@ class GlobalData: ObservableObject {
 
 
 struct AUIKitProgress: View {
+    @EnvironmentObject var gd: GlobalData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LoadingView(isActive: $gd.isActive)
     }
 }
 
 struct AUIKitProgress_Previews: PreviewProvider {
     static var previews: some View {
-        AUIKitProgress()
+        let gd = GlobalData()
+        //gd.isActive = true
+        return AUIKitProgress().environmentObject(gd)
     }
 }

@@ -33,7 +33,7 @@ struct TextFieldView: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct TextFieldView_Previews: PreviewProvider {
     static var previews: some View {
         TextFieldView(username: "", nickname: "", password: "")
     }
