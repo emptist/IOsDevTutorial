@@ -174,47 +174,8 @@
 		4829742A262A8E3A00D923DE /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4829742B262A8E3A00D923DE /* IOsDevTutorialApp.swift */,
-				4829742C262A8E3A00D923DE /* ContentView.swift */,
-				48297451262A8EC700D923DE /* ShowStoreView.swift */,
-				48297450262A8EC700D923DE /* TextViewL2.swift */,
-				4829744E262A8EC700D923DE /* TextViewParagraph.swift */,
-				4829744F262A8EC700D923DE /* FullScreen.swift */,
-				48297460262A926F00D923DE /* DateFormatText.swift */,
-				484987C1262C44EA009B59EE /* ComposedText.swift */,
-				484987C6262C4640009B59EE /* LabelOfImageText.swift */,
-				484987CB262C569F009B59EE /* TextFieldView.swift */,
-				484987D2262C6FD7009B59EE /* TextEditorView.swift */,
-				484987D7262C9225009B59EE /* ModalWindow.swift */,
-				484987DC262C9483009B59EE /* ImageRelated01.swift */,
-				484987E1262C95DB009B59EE /* Image02.swift */,
-				484987E6262C97BA009B59EE /* ImageEffects.swift */,
-				484987EB262C9EAB009B59EE /* ImageBackground.swift */,
-				484987F0262CA37F009B59EE /* ImageRotation.swift */,
-				484987F5262CA787009B59EE /* WebImagef.swift */,
-				480E10C42634DF5200665FD4 /* UserFriendlySelction.swift */,
-				480E10C92634E4B900665FD4 /* DatePickerView.swift */,
-				483844972638BE820043BA65 /* DateFormat.swift */,
-				4838449A2638C5220043BA65 /* ColorPicking.swift */,
-				4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */,
-				483844A02639C18D0043BA65 /* SliderView.swift */,
-				482ADCB8263A1A67008FB940 /* StepperView.swift */,
-				482ADCBB263A1CA9008FB940 /* ToggleView.swift */,
-				482ADCC1263A23FD008FB940 /* MultiTabs.swift */,
-				482D431A263B89F10098DD5F /* MultiPages.swift */,
-				482D431D263C03EC0098DD5F /* WebKitContents.swift */,
-				482D4320263CA6DB0098DD5F /* AMap.swift */,
-				482D4323263CACE10098DD5F /* UsingMapView.swift */,
-				482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */,
-				48B56883263ECE8300A88073 /* ACircularActivityView.swift */,
-				48B56886263ED2DC00A88073 /* AUIKitProgress.swift */,
-				4892CCA3263FA15100D647A3 /* ProgressViewHorizontalBar.swift */,
-				4892CCC82640003B00D647A3 /* AMirrorView.swift */,
-				4892CCCB2640057F00D647A3 /* ViewBackgrounds.swift */,
-				4892CCCE26401AF100D647A3 /* UsingAnyView.swift */,
-				4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */,
-				4892CCD72640273A00D647A3 /* Circles.swift */,
-				4892CCDA2640377300D647A3 /* Capsules.swift */,
+				4892CCDD26403B2900D647A3 /* Basic Views */,
+				4892CCDE26403BA700D647A3 /* More Views */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -244,6 +205,61 @@
 				4829743D262A8E3B00D923DE /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4892CCDD26403B2900D647A3 /* Basic Views */ = {
+			isa = PBXGroup;
+			children = (
+				48297451262A8EC700D923DE /* ShowStoreView.swift */,
+				48297450262A8EC700D923DE /* TextViewL2.swift */,
+				4829744E262A8EC700D923DE /* TextViewParagraph.swift */,
+				4829744F262A8EC700D923DE /* FullScreen.swift */,
+				48297460262A926F00D923DE /* DateFormatText.swift */,
+				484987C1262C44EA009B59EE /* ComposedText.swift */,
+				484987C6262C4640009B59EE /* LabelOfImageText.swift */,
+				484987CB262C569F009B59EE /* TextFieldView.swift */,
+				484987D2262C6FD7009B59EE /* TextEditorView.swift */,
+				484987D7262C9225009B59EE /* ModalWindow.swift */,
+				484987DC262C9483009B59EE /* ImageRelated01.swift */,
+				484987E1262C95DB009B59EE /* Image02.swift */,
+				484987E6262C97BA009B59EE /* ImageEffects.swift */,
+				484987EB262C9EAB009B59EE /* ImageBackground.swift */,
+				484987F0262CA37F009B59EE /* ImageRotation.swift */,
+				484987F5262CA787009B59EE /* WebImagef.swift */,
+			);
+			path = "Basic Views";
+			sourceTree = "<group>";
+		};
+		4892CCDE26403BA700D647A3 /* More Views */ = {
+			isa = PBXGroup;
+			children = (
+				4829742B262A8E3A00D923DE /* IOsDevTutorialApp.swift */,
+				4829742C262A8E3A00D923DE /* ContentView.swift */,
+				480E10C42634DF5200665FD4 /* UserFriendlySelction.swift */,
+				480E10C92634E4B900665FD4 /* DatePickerView.swift */,
+				483844972638BE820043BA65 /* DateFormat.swift */,
+				4838449A2638C5220043BA65 /* ColorPicking.swift */,
+				4838449D2638C9E80043BA65 /* PickerIntoSegmentPicker.swift */,
+				483844A02639C18D0043BA65 /* SliderView.swift */,
+				482ADCB8263A1A67008FB940 /* StepperView.swift */,
+				482ADCBB263A1CA9008FB940 /* ToggleView.swift */,
+				482ADCC1263A23FD008FB940 /* MultiTabs.swift */,
+				482D431A263B89F10098DD5F /* MultiPages.swift */,
+				482D431D263C03EC0098DD5F /* WebKitContents.swift */,
+				482D4320263CA6DB0098DD5F /* AMap.swift */,
+				482D4323263CACE10098DD5F /* UsingMapView.swift */,
+				482D4326263E5A980098DD5F /* CircularActivityUIKit.swift */,
+				48B56883263ECE8300A88073 /* ACircularActivityView.swift */,
+				48B56886263ED2DC00A88073 /* AUIKitProgress.swift */,
+				4892CCA3263FA15100D647A3 /* ProgressViewHorizontalBar.swift */,
+				4892CCC82640003B00D647A3 /* AMirrorView.swift */,
+				4892CCCB2640057F00D647A3 /* ViewBackgrounds.swift */,
+				4892CCCE26401AF100D647A3 /* UsingAnyView.swift */,
+				4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */,
+				4892CCD72640273A00D647A3 /* Circles.swift */,
+				4892CCDA2640377300D647A3 /* Capsules.swift */,
+			);
+			path = "More Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
