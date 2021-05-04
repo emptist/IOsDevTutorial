@@ -27,6 +27,8 @@
 		48297459262A8EC700D923DE /* ShowStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297451262A8EC700D923DE /* ShowStoreView.swift */; };
 		48297461262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
 		48297462262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
+		4829AB3F2640EC32003C8198 /* GroupsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB3E2640EC32003C8198 /* GroupsPreview.swift */; };
+		4829AB4126411131003C8198 /* UsingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB4026411131003C8198 /* UsingHStack.swift */; };
 		482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
@@ -87,6 +89,8 @@
 		4892CCD92640273A00D647A3 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCD72640273A00D647A3 /* Circles.swift */; };
 		4892CCDB2640377300D647A3 /* Capsules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCDA2640377300D647A3 /* Capsules.swift */; };
 		4892CCDC2640377300D647A3 /* Capsules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCDA2640377300D647A3 /* Capsules.swift */; };
+		4892CCE026403CDB00D647A3 /* DrawingWithPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCDF26403CDB00D647A3 /* DrawingWithPaths.swift */; };
+		4892CCE126403CDB00D647A3 /* DrawingWithPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892CCDF26403CDB00D647A3 /* DrawingWithPaths.swift */; };
 		48B56884263ECE8300A88073 /* ACircularActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56883263ECE8300A88073 /* ACircularActivityView.swift */; };
 		48B56885263ECE8300A88073 /* ACircularActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56883263ECE8300A88073 /* ACircularActivityView.swift */; };
 		48B56887263ED2DC00A88073 /* AUIKitProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B56886263ED2DC00A88073 /* AUIKitProgress.swift */; };
@@ -109,6 +113,8 @@
 		48297450262A8EC700D923DE /* TextViewL2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewL2.swift; sourceTree = "<group>"; };
 		48297451262A8EC700D923DE /* ShowStoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStoreView.swift; sourceTree = "<group>"; };
 		48297460262A926F00D923DE /* DateFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatText.swift; sourceTree = "<group>"; };
+		4829AB3E2640EC32003C8198 /* GroupsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsPreview.swift; sourceTree = "<group>"; };
+		4829AB4026411131003C8198 /* UsingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingHStack.swift; sourceTree = "<group>"; };
 		482ADCB8263A1A67008FB940 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		482ADCBB263A1CA9008FB940 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		482ADCC1263A23FD008FB940 /* MultiTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabs.swift; sourceTree = "<group>"; };
@@ -139,6 +145,7 @@
 		4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAViewModifier.swift; sourceTree = "<group>"; };
 		4892CCD72640273A00D647A3 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 		4892CCDA2640377300D647A3 /* Capsules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capsules.swift; sourceTree = "<group>"; };
+		4892CCDF26403CDB00D647A3 /* DrawingWithPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingWithPaths.swift; sourceTree = "<group>"; };
 		48B56883263ECE8300A88073 /* ACircularActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACircularActivityView.swift; sourceTree = "<group>"; };
 		48B56886263ED2DC00A88073 /* AUIKitProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AUIKitProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +183,7 @@
 			children = (
 				4892CCDD26403B2900D647A3 /* Basic Views */,
 				4892CCDE26403BA700D647A3 /* More Views */,
+				4829AB3D2640EBE1003C8198 /* View Layouts */,
 				4829742D262A8E3B00D923DE /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -205,6 +213,15 @@
 				4829743D262A8E3B00D923DE /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4829AB3D2640EBE1003C8198 /* View Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				4829AB3E2640EC32003C8198 /* GroupsPreview.swift */,
+				4829AB4026411131003C8198 /* UsingHStack.swift */,
+			);
+			path = "View Layouts";
 			sourceTree = "<group>";
 		};
 		4892CCDD26403B2900D647A3 /* Basic Views */ = {
@@ -258,6 +275,7 @@
 				4892CCD426401E7000D647A3 /* CreatingAViewModifier.swift */,
 				4892CCD72640273A00D647A3 /* Circles.swift */,
 				4892CCDA2640377300D647A3 /* Capsules.swift */,
+				4892CCDF26403CDB00D647A3 /* DrawingWithPaths.swift */,
 			);
 			path = "More Views";
 			sourceTree = "<group>";
@@ -365,6 +383,7 @@
 				48297440262A8E3B00D923DE /* ContentView.swift in Sources */,
 				48297458262A8EC700D923DE /* ShowStoreView.swift in Sources */,
 				484987EC262C9EAB009B59EE /* ImageBackground.swift in Sources */,
+				4829AB3F2640EC32003C8198 /* GroupsPreview.swift in Sources */,
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				482D431E263C03EC0098DD5F /* WebKitContents.swift in Sources */,
 				480E10CA2634E4B900665FD4 /* DatePickerView.swift in Sources */,
@@ -376,6 +395,7 @@
 				483844A12639C18D0043BA65 /* SliderView.swift in Sources */,
 				484987E2262C95DB009B59EE /* Image02.swift in Sources */,
 				482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */,
+				4892CCE026403CDB00D647A3 /* DrawingWithPaths.swift in Sources */,
 				482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */,
 				484987C2262C44EA009B59EE /* ComposedText.swift in Sources */,
 				482D4321263CA6DB0098DD5F /* AMap.swift in Sources */,
@@ -393,6 +413,7 @@
 				484987F6262CA787009B59EE /* WebImagef.swift in Sources */,
 				484987F1262CA37F009B59EE /* ImageRotation.swift in Sources */,
 				4829743E262A8E3B00D923DE /* IOsDevTutorialApp.swift in Sources */,
+				4829AB4126411131003C8198 /* UsingHStack.swift in Sources */,
 				484987DD262C9483009B59EE /* ImageRelated01.swift in Sources */,
 				4892CCC92640003B00D647A3 /* AMirrorView.swift in Sources */,
 				482D4327263E5A980098DD5F /* CircularActivityUIKit.swift in Sources */,
@@ -424,6 +445,7 @@
 				483844A22639C18D0043BA65 /* SliderView.swift in Sources */,
 				484987E3262C95DB009B59EE /* Image02.swift in Sources */,
 				482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */,
+				4892CCE126403CDB00D647A3 /* DrawingWithPaths.swift in Sources */,
 				482ADCBD263A1CA9008FB940 /* ToggleView.swift in Sources */,
 				484987C3262C44EA009B59EE /* ComposedText.swift in Sources */,
 				482D4322263CA6DB0098DD5F /* AMap.swift in Sources */,
