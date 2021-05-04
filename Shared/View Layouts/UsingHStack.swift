@@ -10,7 +10,7 @@ import SwiftUI
 struct UsingHStack: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 30) {
-            ZStack(alignment: .leading) {
+            ZStack(alignment: .center) {
                 Image("lotus001")
                     .resizable()//
                     .clipShape(Circle())

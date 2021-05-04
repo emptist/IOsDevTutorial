@@ -29,6 +29,8 @@
 		48297462262A926F00D923DE /* DateFormatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48297460262A926F00D923DE /* DateFormatText.swift */; };
 		4829AB3F2640EC32003C8198 /* GroupsPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB3E2640EC32003C8198 /* GroupsPreview.swift */; };
 		4829AB4126411131003C8198 /* UsingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB4026411131003C8198 /* UsingHStack.swift */; };
+		4829AB432641924D003C8198 /* UsingLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB422641924D003C8198 /* UsingLazyVStack.swift */; };
+		4829AB45264197AD003C8198 /* UsingLazyZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB44264197AD003C8198 /* UsingLazyZStack.swift */; };
 		482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
@@ -115,6 +117,8 @@
 		48297460262A926F00D923DE /* DateFormatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatText.swift; sourceTree = "<group>"; };
 		4829AB3E2640EC32003C8198 /* GroupsPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsPreview.swift; sourceTree = "<group>"; };
 		4829AB4026411131003C8198 /* UsingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingHStack.swift; sourceTree = "<group>"; };
+		4829AB422641924D003C8198 /* UsingLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLazyVStack.swift; sourceTree = "<group>"; };
+		4829AB44264197AD003C8198 /* UsingLazyZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLazyZStack.swift; sourceTree = "<group>"; };
 		482ADCB8263A1A67008FB940 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		482ADCBB263A1CA9008FB940 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		482ADCC1263A23FD008FB940 /* MultiTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabs.swift; sourceTree = "<group>"; };
@@ -220,6 +224,8 @@
 			children = (
 				4829AB3E2640EC32003C8198 /* GroupsPreview.swift */,
 				4829AB4026411131003C8198 /* UsingHStack.swift */,
+				4829AB422641924D003C8198 /* UsingLazyVStack.swift */,
+				4829AB44264197AD003C8198 /* UsingLazyZStack.swift */,
 			);
 			path = "View Layouts";
 			sourceTree = "<group>";
@@ -387,6 +393,7 @@
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
 				482D431E263C03EC0098DD5F /* WebKitContents.swift in Sources */,
 				480E10CA2634E4B900665FD4 /* DatePickerView.swift in Sources */,
+				4829AB45264197AD003C8198 /* UsingLazyZStack.swift in Sources */,
 				4892CCA4263FA15100D647A3 /* ProgressViewHorizontalBar.swift in Sources */,
 				4892CCCF26401AF100D647A3 /* UsingAnyView.swift in Sources */,
 				4892CCCC2640057F00D647A3 /* ViewBackgrounds.swift in Sources */,
@@ -408,6 +415,7 @@
 				48B56884263ECE8300A88073 /* ACircularActivityView.swift in Sources */,
 				4838449B2638C5220043BA65 /* ColorPicking.swift in Sources */,
 				4838449E2638C9E80043BA65 /* PickerIntoSegmentPicker.swift in Sources */,
+				4829AB432641924D003C8198 /* UsingLazyVStack.swift in Sources */,
 				4892CCD82640273A00D647A3 /* Circles.swift in Sources */,
 				4892CCD526401E7000D647A3 /* CreatingAViewModifier.swift in Sources */,
 				484987F6262CA787009B59EE /* WebImagef.swift in Sources */,
