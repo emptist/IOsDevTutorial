@@ -10,7 +10,7 @@ import SwiftUI
 struct UsingLazyZStack: View {
     var cols: [GridItem] = [
         GridItem(GridItem.Size.flexible(),spacing: 10),
-        GridItem(GridItem.Size.fixed(160),spacing: 10),
+        GridItem(GridItem.Size.fixed(100),spacing: 10),
         GridItem(GridItem.Size.flexible(),spacing: 10),
         GridItem(GridItem.Size.flexible(),spacing: 10)
     ]

@@ -31,6 +31,7 @@
 		4829AB4126411131003C8198 /* UsingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB4026411131003C8198 /* UsingHStack.swift */; };
 		4829AB432641924D003C8198 /* UsingLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB422641924D003C8198 /* UsingLazyVStack.swift */; };
 		4829AB45264197AD003C8198 /* UsingLazyZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB44264197AD003C8198 /* UsingLazyZStack.swift */; };
+		4829AB4726423CB9003C8198 /* UsingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4829AB4626423CB9003C8198 /* UsingList.swift */; };
 		482ADCB9263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBA263A1A67008FB940 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCB8263A1A67008FB940 /* StepperView.swift */; };
 		482ADCBC263A1CA9008FB940 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482ADCBB263A1CA9008FB940 /* ToggleView.swift */; };
@@ -119,6 +120,7 @@
 		4829AB4026411131003C8198 /* UsingHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingHStack.swift; sourceTree = "<group>"; };
 		4829AB422641924D003C8198 /* UsingLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLazyVStack.swift; sourceTree = "<group>"; };
 		4829AB44264197AD003C8198 /* UsingLazyZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingLazyZStack.swift; sourceTree = "<group>"; };
+		4829AB4626423CB9003C8198 /* UsingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingList.swift; sourceTree = "<group>"; };
 		482ADCB8263A1A67008FB940 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 		482ADCBB263A1CA9008FB940 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		482ADCC1263A23FD008FB940 /* MultiTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabs.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				4829AB4026411131003C8198 /* UsingHStack.swift */,
 				4829AB422641924D003C8198 /* UsingLazyVStack.swift */,
 				4829AB44264197AD003C8198 /* UsingLazyZStack.swift */,
+				4829AB4626423CB9003C8198 /* UsingList.swift */,
 			);
 			path = "View Layouts";
 			sourceTree = "<group>";
@@ -388,6 +391,7 @@
 				482D431B263B89F10098DD5F /* MultiPages.swift in Sources */,
 				48297440262A8E3B00D923DE /* ContentView.swift in Sources */,
 				48297458262A8EC700D923DE /* ShowStoreView.swift in Sources */,
+				4829AB4726423CB9003C8198 /* UsingList.swift in Sources */,
 				484987EC262C9EAB009B59EE /* ImageBackground.swift in Sources */,
 				4829AB3F2640EC32003C8198 /* GroupsPreview.swift in Sources */,
 				48297452262A8EC700D923DE /* TextViewParagraph.swift in Sources */,
